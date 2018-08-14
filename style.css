@@ -1,0 +1,47 @@
+.slider {
+  margin: 40px 40px 0px 40px;
+  padding: 0px;
+  height: 30px;
+}
+
+.carousel {
+  position: relative;
+
+  padding: 0px;
+}
+
+.carousel .item img {
+  height: 180px;
+  width: 97%;
+  border-radius: 5px;
+}
+
+.paginator {
+  position: relative;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.paginator li {
+  margin-top: 20px;
+  position: relative;
+  float: right;
+  margin-right: 20px;
+}
+
+#prev {
+  display: block;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  background: url("images/str_des_crna.png") no-repeat;
+  background-size: 50%;
+}
+
+#next {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("images/str_left_crna.png") no-repeat;
+  background-size: 50%;
+}
